@@ -18,7 +18,7 @@
     ],
     "require": {
         "php":                      ">=5.3.3",
-        "symfony/options-resolver": "~2.1",
+        "symfony/options-resolver": "~2.1,<2.6",
         "symfony/event-dispatcher": "~2.1",
         "symfony/property-access":  "~2.3"
     },
@@ -28,7 +28,8 @@
         "symfony/dependency-injection": "~2.1",
         "symfony/framework-bundle":     "~2.1",
         "symfony/security":             "~2.1",
-        "twig/twig":                    "~1.13"
+        "twig/twig":                    "~1.13",
+        "alom/graphviz":                "v1.0.0"
     },
     "suggest": {
         "pimple/pimple":    "Needed for use with PimpleFactory",
